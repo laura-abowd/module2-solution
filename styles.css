@@ -16,15 +16,12 @@ h1 {
   margin-top: 50px;
   text-align: center;
   font-size: 3em;
-
 }
-
 
 .container-menu {
   margin-top: 50px;
   overflow: auto;
   width: 100%;
-
 }
 
 .menu {
@@ -45,7 +42,6 @@ h1 {
   font-weight: bold;
 }
 
-
 #title-chicken {
   background-color: #e581e1;
 }
@@ -60,15 +56,13 @@ h1 {
 
 .menu-p {
   margin-top: 24px;
-  /*width: 90%;*/
+  width: 95%;
   margin: 48px auto 0 auto;
 }
 
 @media (min-width: 992px) {
   .col-lg-12, .col-lg-8, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2 {
     float: left;
-    /*margin-right: 1%;*/
-    /*padding: 12px;*/
     border: 2px solid black;
   }
 
