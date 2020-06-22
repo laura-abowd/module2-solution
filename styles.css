@@ -1,0 +1,133 @@
+/*desktop view (992px and above)*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: Helvetica, sans-serif;
+  margin: 0 1%;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 3em;
+
+}
+
+
+.container-menu {
+  margin-top: 50px;
+  overflow: auto;
+  width: 100%;
+
+}
+
+.menu {
+  background-color: #FAF7E8;
+  position: relative;
+}
+
+.title-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: pink;
+  border: 2px solid black;
+  border-top: 0;
+  border-right: 0;
+  padding: 4px 12px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+#title-chicken {
+  background-color: #e581e1;
+}
+
+#title-sushi {
+  background-color: #c8fb9a;
+}
+
+#title-beef {
+  background-color: #adb8e9;
+}
+
+.menu-p {
+  margin-top: 24px;
+  /*width: 90%;*/
+  margin: 48px auto 0 auto;
+}
+
+@media (min-width: 992px) {
+  .col-lg-12, .col-lg-8, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2 {
+    float: left;
+    /*margin-right: 1%;*/
+    /*padding: 12px;*/
+    border: 2px solid black;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-4 {
+    width: 32.5%;
+  }
+
+  .mr-1 {
+    margin-right: 1%;
+}
+
+  .col-lg-3 {
+    width: 25%;
+  }
+}
+
+/*tablet view (between 768px and 991px, inclusively)*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-12, .col-md-8, .col-md-6, .col-md-4,
+  .col-md-2 {
+    float: left;
+    margin-top: 1%;
+    border: 2px solid black;
+  }
+
+ .col-md-6 {
+    width: 49%;
+  }
+
+  .mr-2 {
+    margin-right: 2%;
+}
+  .col-md-12 {
+   width: 100%;
+  }
+
+}
+
+/*mobile view (equal to or less than 767px)*/
+
+@media screen and (max-width: 767px) {
+  .col-sm-12, .col-sm-8, .col-sm-6, .col-sm-4,
+  .col-sm-2 {
+    float: left;
+    margin: .5% 0;
+    border: 2px solid black;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
